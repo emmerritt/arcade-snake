@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+  background-color: #fff;
+  margin: 0;
+  color: #000;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 3em;
+}
+
+p {
+  margin: 0;
+}
+
+table {
+    border-spacing: 0;
+    max-width: 400px;
+    background-color: #252525;
+}
+  
+td {
+  /* background-color: #11052C; */
+  border: none;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
+  
+  /*tr:nth-child(2n-1) td:nth-child(2n){
+    background-color: #072418;
+  }
+  
+  tr:nth-child(2n) td:nth-child(2n-1){
+    background-color: #072418;
+  }*/
+  
+tr {
+  /* background-color: #11052C; */
+  width: 200px;
+  height: 20px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+  
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #6930C3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.snake {
+  background-color: #64DFDF;
+  width: 20px;
+  height: 20px;
+}
+
+.apple {
+  background-color: #914dff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px -2px rgba(255,255,255,0.7);
+}
+
+.boost {
+  background-color: #80FFDB;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px -2px rgba(255,255,255,0.7);
+}
+
+#instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+}
+
+#game-over {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+}
+
+#arrow-keys {
+  width: 200px;
+}
+
+#snek {
+  width: 200px;
+}
+
+#game-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#score-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 400px;
+  padding: 10px;
+}
